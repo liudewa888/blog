@@ -10,6 +10,6 @@
 ## 环境配置
 - [地址](./src/环境配置/index.md)
 ## chrome插件
-- [地址](./src/chrom插件/index.md)
+- [地址](./src/chrome插件/index.md)
 ## webpack
 - [地址](./src/前端/webpack/index.md)
