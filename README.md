@@ -1,4 +1,6 @@
 # Blog
+## 高级搜索
+- [地址](./src/高级搜索/index.md)
 ## 面经
 - [地址](./src/face/index.md)
 ## 书签
