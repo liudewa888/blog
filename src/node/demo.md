@@ -1,21 +1,17 @@
 # app.js
 ```javascript
-const request = require("request");
 const express = require("express");
 const bodyParser = require("body-parser");
-const fs = require("fs");
 const app = express();
 
 
 app.use(express.static(__dirname + "/public"));
-app.use(express.static("../../16181"));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 
 app.post("/", function(req, res) {
-  const info = req.body;
-  const data= handle(info)
+  const data = req.body;
   res.send(JSON.stringify(data))
 });
 
