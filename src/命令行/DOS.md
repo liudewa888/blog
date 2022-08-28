@@ -1,6 +1,18 @@
 # DOS命令
 - 打开窗口,输入help显示所有命令行信息
+- 常用
+```javascript
+md mkdir // 创建目录
+rm rmdir // 删除目录或文件
+del // 删除文件
+touch // 创建文件
+cd // 切换
+mv // 移动
+pwd // 目录路
+cat // 查看文件内容
+ren // 文件重命名
 
+```
 ```javascript
 md 创建子目录
 格式: MD[盘符：][路径名]〈子目录名〉
@@ -187,15 +199,11 @@ rononce -p ----15秒关机
 
 rsop.msc-------组策略结果集
 
-rundll32.exe rundll32.exe %Systemroot%System32shimgvw.dll,ImageView_Fullscreen----启动一个空白的Windows 图片和传真查看器
-
 secpol.msc--------本地安全策略
 
 services.msc---本地服务设置
 
 sfc /scannow-----启动系统文件检查器
-
-sndrec32-------录音机
 
 taskmgr-----任务管理器（适用于2000／xp／2003）
 
